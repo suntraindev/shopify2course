@@ -141,13 +141,17 @@ table {
 .header1 a:hover {
   color: #e63b49;
 }
-.header1__collection-link,
+.header1__collections-nav {
+  margin-bottom: 0;
+  padding-left: 0;
+}
 .header1__collections-nav a {
   padding-right: 20px;
   display: inline-block;
 }
 .header1__collection-link {
-  color: #fff;
+  color: #2c2952;
+  display: inline-block;
   position: relative;
 }
 .header1__collection-link .collection-link__sub-links {
@@ -200,13 +204,17 @@ table {
 .header2 a:hover {
   color: #e63b49;
 }
-.header2__collection-link,
+.header2__collections-nav {
+  margin-bottom: 0;
+  padding-left: 0;
+}
 .header2__collections-nav a {
   padding-right: 20px;
   display: inline-block;
 }
 .header2__collection-link {
   color: #fff;
+  display: inline-block;
   position: relative;
 }
 .header2__collection-link .collection-link__sub-links {
@@ -255,13 +263,17 @@ table {
 .header3 a:hover {
   color: #e63b49;
 }
-.header3__collection-link,
+.header3__collections-nav {
+  margin-bottom: 0;
+  padding-left: 0;
+}
 .header3__collections-nav a {
   padding-right: 20px;
   display: inline-block;
 }
 .header3__collection-link {
-  color: #fff;
+  color: #2c2952;
+  display: inline-block;
   position: relative;
 }
 .header3__collection-link .collection-link__sub-links {
