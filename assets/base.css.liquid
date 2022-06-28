@@ -2294,12 +2294,13 @@ input[type='checkbox'] {
 }
 
 .header__heading-logo {
-  height: auto;
-  width: 100%;
+  /* height: auto;
+  width: 100%; */
+  max-width: {{ section.settings.logo_width }}px; 
 }
 
 @media screen and (max-width: 989px) {
-  .header__heading,
+  .header__heading,       
   .header__heading-link {
     text-align: center;
   }
