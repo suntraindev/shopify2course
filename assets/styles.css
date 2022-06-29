@@ -334,21 +334,21 @@ table {
   padding-right: 20rem;
 }
 .hero1__bg {
-  position: absolute;
   -o-object-fit: cover;
   object-fit: cover;
   -o-object-position: center;
   object-position: center;
-  width: 100%;
-  height: 100;
   z-index: 1;
 }
+.hero1__bg,
 .hero1__content-container {
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
+}
+.hero1__content-container {
+  top: 0;
+  left: 0;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 2;
   display: flex;

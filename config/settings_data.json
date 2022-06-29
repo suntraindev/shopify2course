@@ -104,7 +104,6 @@
             "type": "announcement",
             "settings": {
               "text": "50% off for July 4",
-              "color_scheme": "accent-2",
               "link": "shopify:\/\/collections\/50-off"
             }
           }
@@ -118,16 +117,9 @@
       "header": {
         "type": "header",
         "settings": {
-          "color_scheme": "background-1",
           "logo_width": 90,
-          "logo_position": "middle-left",
           "menu": "main-menu",
-          "menu_type_desktop": "dropdown",
-          "show_line_separator": true,
-          "enable_sticky_header": true,
-          "margin_bottom": 0,
-          "padding_top": 20,
-          "padding_bottom": 20
+          "enable_sticky_header": true
         }
       },
       "footer": {
@@ -297,8 +289,9 @@
               "type": "announcement",
               "settings": {
                 "text": "Welcome to our store",
-                "color_scheme": "background-1",
-                "link": ""
+                "link": "",
+                "background_color": "#605e7d",
+                "announcement_text_color": "#c1c1c1"
               }
             }
           },
@@ -311,13 +304,9 @@
         "header": {
           "type": "header",
           "settings": {
-            "color_scheme": "background-1",
             "logo_width": 90,
-            "logo_position": "middle-left",
             "menu": "main-menu",
-            "show_line_separator": true,
-            "enable_sticky_header": true,
-            "margin_bottom": 0
+            "enable_sticky_header": true
           }
         },
         "footer": {
