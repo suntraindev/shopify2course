@@ -111,15 +111,14 @@
         "block_order": [
           "announcement-bar-0"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
         "settings": {
           "logo_width": 90,
           "menu": "main-menu",
-          "enable_sticky_header": true
+          "enable_sticky_header": false
         }
       },
       "footer": {
@@ -179,9 +178,7 @@
         }
       }
     },
-    "content_for_index": [
-
-    ]
+    "content_for_index": []
   },
   "presets": {
     "Default": {
@@ -298,8 +295,7 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "header": {
           "type": "header",

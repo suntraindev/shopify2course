@@ -1,43 +1,43 @@
 {
   "sections": {
-    "1656546722da4e8c89": {
+    "1656614730b29a396b": {
       "type": "hero-one",
       "blocks": {
-        "165654672234f3e1ee-0": {
+        "1656614730afe745b1-0": {
           "type": "heading",
           "settings": {
-            "title": "Title"
+            "title": "Top Shirts"
           }
         },
-        "165654672234f3e1ee-1": {
-          "type": "text",
+        "1656614730afe745b1-1": {
+          "type": "paragraph",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
+            "paragraph": "Example message I'm baby mumblecore locavore tonx woke offal ntelligentsia. Pork belly skateboard mixtape mlkshk gastropub freegan Butcher lyft deep v succulents plaid."
           }
         },
-        "165654672234f3e1ee-2": {
+        "1656614730afe745b1-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "View More",
+            "button_link": "shopify:\/\/collections\/all"
           }
         }
       },
       "block_order": [
-        "165654672234f3e1ee-0",
-        "165654672234f3e1ee-1",
-        "165654672234f3e1ee-2"
+        "1656614730afe745b1-0",
+        "1656614730afe745b1-1",
+        "1656614730afe745b1-2"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/man-hiking-in-mountains.jpg",
+        "background": "#aab02a",
+        "opacity": 58,
         "paragraph": "Example message I'm baby mumblecore locavore tonx woke offal ntelligentsia. Pork belly skateboard mixtape mlkshk gastropub freegan Butcher lyft deep v succulents plaid.",
-        "button_link": "",
-        "info_alignment": "right"
+        "info_alignment": "center"
       }
     }
   },
   "order": [
-    "1656546722da4e8c89"
+    "1656614730b29a396b"
   ]
 }
