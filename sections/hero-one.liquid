@@ -1,4 +1,4 @@
-<div class="hero hero1 hero1--aligned-{{ section.settings.info_alignment }}">
+<div class="hero hero1 hero1--aligned-{{ section.settings.info_alignment }} hero1--{{ section.settings.hero_height }}">
   {%- if section.settings.image != blank -%}
     <img
       srcset="{%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
@@ -46,23 +46,27 @@
   "settings": [
     {
       "type": "select",
-      "id": "hero_size",
+      "id": "hero_height",
       "options": [
         {
           "value": "25vh",
-          "label": "Small"
+          "label": "25%"
         },
         {
           "value": "50vh",
-          "label": "Medium"
+          "label": "50%"
         },
         {
-          "value": "right",
-          "label": "Right"
+          "value": "75vh",
+          "label": "75%"
+        },
+        {
+          "value": "100vh",
+          "label": "100%"
         }
       ],
-      "default": "right",
-      "label": "Info Alignment"
+      "default": "100vh",
+      "label": "Height"
     },
     {
       "type": "image_picker",

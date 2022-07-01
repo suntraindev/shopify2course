@@ -29,7 +29,7 @@
         "1656614730afe745b1-2"
       ],
       "settings": {
-        "hero_size": "right",
+        "hero_height": "100vh",
         "image": "shopify:\/\/shop_images\/man-hiking-in-mountains.jpg",
         "background": "#aab02a",
         "opacity": 58,
@@ -40,6 +40,7 @@
     "1656698091feed7417": {
       "type": "hero-two",
       "settings": {
+        "hero_height": "50vh",
         "image1": "shopify:\/\/shop_images\/smiling-man-in-formalwear.jpg",
         "background1": "#f1e1e1",
         "opacity1": 29,
@@ -51,10 +52,49 @@
         "button_label2": "Women",
         "button_link2": "shopify:\/\/collections\/women"
       }
+    },
+    "1656702372c227e7ce": {
+      "type": "hero-one",
+      "blocks": {
+        "16567023722e24d0da-0": {
+          "type": "heading",
+          "settings": {
+            "title": "50% OFF ALL SNEAKERS"
+          }
+        },
+        "16567023722e24d0da-1": {
+          "type": "paragraph",
+          "disabled": true,
+          "settings": {
+            "paragraph": "Example message I'm baby mumblecore locavore tonx woke offal ntelligentsia. Pork belly skateboard mixtape mlkshk gastropub freegan Butcher lyft deep v succulents plaid."
+          }
+        },
+        "16567023722e24d0da-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "View Now!",
+            "button_link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "16567023722e24d0da-0",
+        "16567023722e24d0da-1",
+        "16567023722e24d0da-2"
+      ],
+      "settings": {
+        "hero_height": "50vh",
+        "image": "shopify:\/\/shop_images\/fireworks-streaking-across-black-sky.jpg",
+        "background": "#000000",
+        "opacity": 50,
+        "paragraph": "Example message I'm baby mumblecore locavore tonx woke offal ntelligentsia. Pork belly skateboard mixtape mlkshk gastropub freegan Butcher lyft deep v succulents plaid.",
+        "info_alignment": "center"
+      }
     }
   },
   "order": [
     "1656614730b29a396b",
-    "1656698091feed7417"
+    "1656698091feed7417",
+    "1656702372c227e7ce"
   ]
 }

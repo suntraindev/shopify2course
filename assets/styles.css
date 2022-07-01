@@ -317,7 +317,6 @@ table {
 }
 .hero1 {
   width: 100%;
-  height: 100vh;
   overflow: hidden;
   position: relative;
   margin-bottom: 50px;
@@ -394,7 +393,6 @@ table {
 }
 .hero2 {
   width: 100%;
-  height: 100vh;
   overflow: hidden;
   position: relative;
   display: flex;
