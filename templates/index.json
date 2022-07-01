@@ -6,7 +6,8 @@
         "1656614730afe745b1-0": {
           "type": "heading",
           "settings": {
-            "title": "Top Shirts"
+            "title": "Top Shirts",
+            "title_size": "md"
           }
         },
         "1656614730afe745b1-1": {
@@ -59,7 +60,8 @@
         "16567023722e24d0da-0": {
           "type": "heading",
           "settings": {
-            "title": "50% OFF ALL SNEAKERS"
+            "title": "50% OFF ALL SNEAKERS",
+            "title_size": "xl"
           }
         },
         "16567023722e24d0da-1": {
@@ -85,8 +87,8 @@
       "settings": {
         "hero_height": "50vh",
         "image": "shopify:\/\/shop_images\/fireworks-streaking-across-black-sky.jpg",
-        "background": "#000000",
-        "opacity": 50,
+        "background": "#e32bca",
+        "opacity": 31,
         "paragraph": "Example message I'm baby mumblecore locavore tonx woke offal ntelligentsia. Pork belly skateboard mixtape mlkshk gastropub freegan Butcher lyft deep v succulents plaid.",
         "info_alignment": "center"
       }

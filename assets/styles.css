@@ -378,6 +378,18 @@ table {
   font-family: Bebas Neue, cursive;
   color: #fff;
 }
+.hero1__title--sm {
+  font-size: 2rem;
+}
+.hero1__title--md {
+  font-size: 3rem;
+}
+.hero1__title--lg {
+  font-size: 4.5rem;
+}
+.hero1__title--xl {
+  font-size: 6rem;
+}
 .hero1__paragraph {
   margin-bottom: 2rem;
 }
@@ -462,6 +474,18 @@ table {
   font-size: 3rem;
   font-family: Bebas Neue, cursive;
   color: #fff;
+}
+.hero2__title--sm {
+  font-size: 2rem;
+}
+.hero2__title--md {
+  font-size: 3rem;
+}
+.hero2__title--lg {
+  font-size: 4.5rem;
+}
+.hero2__title--xl {
+  font-size: 6rem;
 }
 .hero2__paragraph {
   margin-bottom: 2rem;
