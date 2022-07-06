@@ -510,6 +510,9 @@ table {
 .collection1 {
   padding: 50px 0;
 }
+.collection1 div[class*="col-"] {
+  margin-bottom: 1rem;
+}
 .collection1__product-img {
   background: #edeff5;
   display: flex;
@@ -520,6 +523,19 @@ table {
   position: relative;
   cursor: pointer;
   overflow: hidden;
+}
+.collection1__product-img .img-link {
+  display: block;
+  width: 70%;
+  height: 100%;
+}
+.collection1__product-img--cover img {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.collection1__product-img--contain img {
+  -o-object-fit: contain;
+  object-fit: contain;
 }
 .collection1__product-img:hover img {
   transform: scale(1.3);
