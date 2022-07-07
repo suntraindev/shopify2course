@@ -98,8 +98,9 @@
       "settings": {
         "collection": "shoes",
         "total_products": "8",
-        "image_fit": "contain",
-        "background": "#ffffff",
+        "container_shape": "circle",
+        "image_fit": "cover",
+        "background": "#6fc7a8",
         "opacity": 100,
         "show_title": true,
         "show_price": true,
