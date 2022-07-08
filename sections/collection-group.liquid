@@ -1,7 +1,7 @@
 <div class="collection collection1"> 
   <div class="container">
     <div class="row">
-      {%- for product in section.settings.collection.products limit: section.settings.total_products -%}
+      {%- for block in section.blocks-%}
         <div class="{{ section.settings.xxl_col }} {{ section.settings.xl_col }} {{ section.settings.lg_col }} {{ section.settings.md_col }} {{ section.settings.sm_col }}">
         <div class="collection1__collection-item">
           {% assign opacity = section.settings.opacity | divided_by: 100.00 %}
@@ -10,22 +10,21 @@
             collection1__product-img--{{section.settings.image_fit}} 
             collection1__product-img--{{section.settings.container_shape}}" 
             style="background-color: {{ section.settings.background | color_modify: 'alpha', opacity }}">
-            <div class="collection1__heart"><i class="far fa-heart"></i></div>
-            {%- if product.images[0] != blank -%}
-              <a href="{{ product.url}}" class="img-link">
-                <img srcset="{%- if product.images[0].width >= 165 -%} {{ product.images[0] | image_url: width: 165 }} 165w,{%- endif -%}
-                    {%- if product.images[0].width >= 360 -%}{{ product.images[0] | image_url: width: 360 }} 360w,{%- endif -%}
-                    {%- if product.images[0].width >= 535 -%}{{ product.images[0] | image_url: width: 535 }} 535w,{%- endif -%}   
-                    {%- if product.images[0].width >= 750 -%}{{ product.images[0] | image_url: width: 750 }} 750w,{%- endif -%}
-                    {%- if product.images[0].width >= 1070 -%}{{ product.images[0] | image_url: width: 2000 }} 2000w,{%- endif -%}
-                    {%- if product.images[0].width >= 1500 -%}{{ product.images[0] | image_url: width: 2000 }} 2000w,{%- endif -%} 
-                    {{ product.images[0] | image_url }} {{ product.images[0].width }}w"
-                  src="{{ product.images[0] | image_url: width: 1500 }}"
+            {%- if block.settings.collection.image != blank -%}
+              <a href="{{ block.settings.collection.url }}" class="img-link">
+                <img srcset="{%- if block.settings.collection.image.width >= 165 -%} {{ block.settings.collection.image | image_url: width: 165 }} 165w,{%- endif -%}
+                    {%- if block.settings.collection.image.width >= 360 -%}{{ block.settings.collection.image | image_url: width: 360 }} 360w,{%- endif -%}
+                    {%- if block.settings.collection.image.width >= 535 -%}{{ block.settings.collection.image | image_url: width: 535 }} 535w,{%- endif -%}   
+                    {%- if block.settings.collection.image.width >= 750 -%}{{ block.settings.collection.image | image_url: width: 750 }} 750w,{%- endif -%}
+                    {%- if block.settings.collection.image.width >= 1070 -%}{{ block.settings.collection.image | image_url: width: 2000 }} 2000w,{%- endif -%}
+                    {%- if block.settings.collection.image.width >= 1500 -%}{{ block.settings.collection.image | image_url: width: 2000 }} 2000w,{%- endif -%} 
+                    {{ block.settings.collection.image | image_url }} {{ block.settings.collection.image.width }}w"
+                  src="{{ block.settings.collection.image | image_url: width: 1500 }}"
                   sizes="(min-width: 1100px) 2000px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                  alt="{{ product.images[0].alt | escape }}"
+                  alt="{{ block.settings.collection.image.alt | escape }}"
                   loading="lazy"
-                  width="{{ product.images[0].width }}"
-                  height="{{ product.images[0].height }}"
+                  width="{{ block.settings.collection.image.width }}"
+                  height="{{ block.settings.collection.image.height }}"
                   class="hero1__bg"
                 >
               </a>
@@ -34,9 +33,9 @@
             {%- endif -%}
           </div>
           <div class="collection1__product-info">
-            <div class="collection1__product-details">
+            <div class="collection1__product-details" style="text-align: center; width: 100%;">
               {%- if section.settings.show_title == true -%}
-              <span class="collection1__product-title">{{ product.title }}</span>
+              <span class="collection1__product-title">{{ block.settings.collection.title }}</span>
             {% endif %}
             {%- if section.settings.show_price == true -%}
               <span class="collection1__product-price">{{ product.price | money }}</span>
@@ -60,25 +59,9 @@
 
 {% schema %}
 {
-  "name": "Collection Products 1",
+  "name": "Collection Group",
   "class": "spaced-section spaced-section--full-width",
-  "settings": [
-    {
-      "type": "collection",
-      "id": "collection",
-      "label": "Collection"
-    },
-    {
-      "type": "range",
-      "id": "total_products",
-      "min": 1,
-      "max": 16,
-      "step": 1,
-      "label": "Total Products",
-      "default": 16
-    },
-
-   
+  "settings": [ 
     {
       "type": "select",
       "id": "container_shape",
@@ -96,7 +79,7 @@
           "label": "Circle"
         }
       ],
-      "default": "rectangle",
+      "default": "square",
       "label": "Product Container Shape"
     },
     {
@@ -112,7 +95,7 @@
           "label": "Contain"
         }
       ],
-      "default": "cover",
+      "default": "contain",
       "label": "Product Image Fit"
     },
     
@@ -137,15 +120,6 @@
       "label": "Show Title",
       "default": true
     },
-    {
-      "type": "checkbox",
-      "id": "show_price",
-      "label": "Show Price",
-      "default": true
-    },
-    
-    
-    
     {
       "type": "select",
       "id": "xxl_col",
@@ -267,9 +241,41 @@
       "label": "Small Devices"
     }
   ],
+  "blocks": [
+    {
+      "type": "featured_collection",
+      "name": "t:sections.collection-list.blocks.featured_collection.name",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "t:sections.collection-list.blocks.featured_collection.settings.collection.label"
+        }
+      ]
+    }
+  ],
   "presets": [
     {
-      "name": "Collection Products 1"
+      "name": "Collection Group",
+      "settings": { 
+        "background": "#FFFFFF",
+        "xxl_col": "col-xxl-4",
+        "xl_col": "col-xl-4",
+        "lg_col": "col-lg-4",
+        "md_col": "col-md-4",
+        "sm_col": "col-sm-2"
+      },
+      "blocks": [
+        {
+          "type": "featured_collection"
+        },
+        {
+          "type": "featured_collection"
+        },
+        {
+          "type": "featured_collection"
+        }
+      ]
     }
   ]
 }

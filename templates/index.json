@@ -97,7 +97,7 @@
       "type": "collection-products-1",
       "settings": {
         "collection": "shoes",
-        "total_products": "8",
+        "total_products": 9,
         "container_shape": "circle",
         "image_fit": "cover",
         "background": "#6fc7a8",
@@ -110,12 +110,53 @@
         "md_col": "col-md-4",
         "sm_col": "col-sm-6"
       }
+    },
+    "1657244016744a01cb": {
+      "type": "collection-group",
+      "blocks": {
+        "cdb7b8cf-12f4-4d68-92e1-e95ca3d20f62": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "50-off"
+          }
+        },
+        "5b4bc58e-bf96-4a20-80d3-f71940f29ac8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "joy"
+          }
+        },
+        "da05b7ae-838e-4759-8882-2baaf33ad841": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shoes"
+          }
+        }
+      },
+      "block_order": [
+        "cdb7b8cf-12f4-4d68-92e1-e95ca3d20f62",
+        "5b4bc58e-bf96-4a20-80d3-f71940f29ac8",
+        "da05b7ae-838e-4759-8882-2baaf33ad841"
+      ],
+      "settings": {
+        "container_shape": "square",
+        "image_fit": "contain",
+        "background": "#edeff5",
+        "opacity": 100,
+        "show_title": true,
+        "xxl_col": "col-xxl-4",
+        "xl_col": "col-xl-4",
+        "lg_col": "col-lg-4",
+        "md_col": "col-md-6",
+        "sm_col": "col-sm-3"
+      }
     }
   },
   "order": [
     "1656614730b29a396b",
     "1656698091feed7417",
     "1656702372c227e7ce",
-    "1657074970ddcaed79"
+    "1657074970ddcaed79",
+    "1657244016744a01cb"
   ]
 }
