@@ -104,8 +104,8 @@
             "type": "announcement",
             "settings": {
               "text": "50% off for July 4",
-              "background_color": "#605e7d",
-              "announcement_text_color": "#c1c1c1",
+              "background_color": "#0c0b1c",
+              "announcement_text_color": "#f7f7f7",
               "link": "shopify:\/\/collections\/50-off"
             }
           }
@@ -149,11 +149,11 @@
           "8b0cb92d-2a24-48ca-b437-a3ff575b15cc"
         ],
         "settings": {
-          "footer_p": "Hello there everyone!!",
+          "footer_p": "Hello Everyone!! Welcome Back!",
           "newsletter_enable": true,
           "newsletter_heading": "Sign up to Newsletter",
           "show_social": true,
-          "footer_bottom-menu": "main-menu"
+          "footer_bottom-menu": ""
         }
       },
       "main-password-header": {
