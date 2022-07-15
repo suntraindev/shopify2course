@@ -99,21 +99,8 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
-        "blocks": {
-          "announcement-bar-0": {
-            "type": "announcement",
-            "settings": {
-              "text": "50% off for July 4",
-              "background_color": "#605e7d",
-              "announcement_text_color": "#c1c1c1",
-              "link": "shopify:\/\/collections\/50-off"
-            }
-          }
-        },
-        "block_order": [
-          "announcement-bar-0"
-        ],
-        "settings": {}
+        "settings": {
+        }
       },
       "header": {
         "type": "header",
@@ -169,7 +156,9 @@
         }
       }
     },
-    "content_for_index": []
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Default": {
@@ -286,7 +275,8 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "header": {
           "type": "header",
@@ -316,8 +306,7 @@
           },
           "block_order": [
             "footer-0",
-            "footer-1",
-            "footer-2"
+            "footer-1"
           ],
           "settings": {
             "newsletter_enable": true,

@@ -1,162 +1,219 @@
 {
   "sections": {
-    "1656614730b29a396b": {
+    "165790741725d67871": {
       "type": "hero-one",
       "blocks": {
-        "1656614730afe745b1-0": {
+        "1657907417a668c4d5-0": {
           "type": "heading",
           "settings": {
-            "title": "Top Shirts",
+            "title": "Title",
             "title_size": "md"
           }
         },
-        "1656614730afe745b1-1": {
+        "1657907417a668c4d5-1": {
           "type": "paragraph",
           "settings": {
             "paragraph": "Example message I'm baby mumblecore locavore tonx woke offal ntelligentsia. Pork belly skateboard mixtape mlkshk gastropub freegan Butcher lyft deep v succulents plaid."
           }
         },
-        "1656614730afe745b1-2": {
+        "1657907417a668c4d5-2": {
           "type": "button",
           "settings": {
-            "button_label": "View More",
-            "button_link": "shopify:\/\/collections\/all"
+            "button_label": "Button label",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "1656614730afe745b1-0",
-        "1656614730afe745b1-1",
-        "1656614730afe745b1-2"
+        "1657907417a668c4d5-0",
+        "1657907417a668c4d5-1",
+        "1657907417a668c4d5-2"
       ],
       "settings": {
         "hero_height": "100vh",
-        "image": "shopify:\/\/shop_images\/man-hiking-in-mountains.jpg",
-        "background": "#aab02a",
-        "opacity": 58,
+        "background": "#000000",
+        "opacity": 50,
         "paragraph": "Example message I'm baby mumblecore locavore tonx woke offal ntelligentsia. Pork belly skateboard mixtape mlkshk gastropub freegan Butcher lyft deep v succulents plaid.",
         "info_alignment": "center"
       }
     },
-    "1656698091feed7417": {
-      "type": "hero-two",
-      "settings": {
-        "hero_height": "50vh",
-        "image1": "shopify:\/\/shop_images\/smiling-man-in-formalwear.jpg",
-        "background1": "#f1e1e1",
-        "opacity1": 29,
-        "button_label1": "Men",
-        "button_link1": "shopify:\/\/collections\/men",
-        "image2": "shopify:\/\/shop_images\/model-with-leather-jacket-over-shoulders.jpg",
-        "background2": "#f1e1e1",
-        "opacity2": 29,
-        "button_label2": "Women",
-        "button_link2": "shopify:\/\/collections\/women"
-      }
-    },
-    "1656702372c227e7ce": {
-      "type": "hero-one",
-      "blocks": {
-        "16567023722e24d0da-0": {
-          "type": "heading",
-          "settings": {
-            "title": "50% OFF ALL SNEAKERS",
-            "title_size": "md"
-          }
-        },
-        "16567023722e24d0da-1": {
-          "type": "paragraph",
-          "disabled": true,
-          "settings": {
-            "paragraph": "Example message I'm baby mumblecore locavore tonx woke offal ntelligentsia. Pork belly skateboard mixtape mlkshk gastropub freegan Butcher lyft deep v succulents plaid."
-          }
-        },
-        "16567023722e24d0da-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "View Now!",
-            "button_link": "shopify:\/\/collections"
-          }
-        }
-      },
-      "block_order": [
-        "16567023722e24d0da-0",
-        "16567023722e24d0da-1",
-        "16567023722e24d0da-2"
-      ],
-      "settings": {
-        "hero_height": "50vh",
-        "image": "shopify:\/\/shop_images\/fireworks-streaking-across-black-sky.jpg",
-        "background": "#e32bca",
-        "opacity": 31,
-        "paragraph": "Example message I'm baby mumblecore locavore tonx woke offal ntelligentsia. Pork belly skateboard mixtape mlkshk gastropub freegan Butcher lyft deep v succulents plaid.",
-        "info_alignment": "center"
-      }
-    },
-    "1657074970ddcaed79": {
-      "type": "collection-products-1",
-      "settings": {
-        "collection": "shoes",
-        "total_products": 9,
-        "container_shape": "circle",
-        "image_fit": "cover",
-        "background": "#6fc7a8",
-        "opacity": 100,
-        "show_title": true,
-        "show_price": true,
-        "xxl_col": "col-xxl-2",
-        "xl_col": "col-xl-3",
-        "lg_col": "col-lg-4",
-        "md_col": "col-md-4",
-        "sm_col": "col-sm-6"
-      }
-    },
-    "1657244016744a01cb": {
+    "1657907432879a8925": {
       "type": "collection-group",
       "blocks": {
-        "cdb7b8cf-12f4-4d68-92e1-e95ca3d20f62": {
+        "16579074321c22def6-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "50-off"
+            "collection": ""
           }
         },
-        "5b4bc58e-bf96-4a20-80d3-f71940f29ac8": {
+        "16579074321c22def6-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "joy"
+            "collection": ""
           }
         },
-        "da05b7ae-838e-4759-8882-2baaf33ad841": {
+        "16579074321c22def6-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "shoes"
+            "collection": ""
           }
         }
       },
       "block_order": [
-        "cdb7b8cf-12f4-4d68-92e1-e95ca3d20f62",
-        "5b4bc58e-bf96-4a20-80d3-f71940f29ac8",
-        "da05b7ae-838e-4759-8882-2baaf33ad841"
+        "16579074321c22def6-0",
+        "16579074321c22def6-1",
+        "16579074321c22def6-2"
       ],
       "settings": {
         "container_shape": "square",
         "image_fit": "contain",
-        "background": "#edeff5",
+        "background": "#ffffff",
         "opacity": 100,
         "show_title": true,
         "xxl_col": "col-xxl-4",
         "xl_col": "col-xl-4",
         "lg_col": "col-lg-4",
-        "md_col": "col-md-6",
+        "md_col": "col-md-4",
+        "sm_col": "col-sm-2"
+      }
+    },
+    "1657907497b59e4db4": {
+      "type": "hero-two",
+      "settings": {
+        "hero_height": "50vh",
+        "background1": "#000000",
+        "opacity1": 50,
+        "button_label1": "Button label",
+        "button_link1": "",
+        "background2": "#000000",
+        "opacity2": 50,
+        "button_label2": "Button label",
+        "button_link2": ""
+      }
+    },
+    "1657907516f58643ee": {
+      "type": "collection-products-1",
+      "settings": {
+        "collection": "",
+        "total_products": 16,
+        "container_shape": "rectangle",
+        "image_fit": "cover",
+        "background": "#edeff5",
+        "opacity": 100,
+        "show_title": true,
+        "show_price": true,
+        "xxl_col": "col-xxl-3",
+        "xl_col": "col-xl-3",
+        "lg_col": "col-lg-3",
+        "md_col": "col-md-3",
         "sm_col": "col-sm-3"
+      }
+    },
+    "16579075247a6d9755": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16579075472429d698": {
+      "type": "hero-two",
+      "settings": {
+        "hero_height": "50vh",
+        "background1": "#000000",
+        "opacity1": 50,
+        "button_label1": "Button label",
+        "button_link1": "",
+        "background2": "#000000",
+        "opacity2": 50,
+        "button_label2": "Button label",
+        "button_link2": ""
+      }
+    },
+    "16579075660720bfb1": {
+      "type": "collection-products-1",
+      "settings": {
+        "collection": "",
+        "total_products": 16,
+        "container_shape": "rectangle",
+        "image_fit": "cover",
+        "background": "#edeff5",
+        "opacity": 100,
+        "show_title": true,
+        "show_price": true,
+        "xxl_col": "col-xxl-3",
+        "xl_col": "col-xl-3",
+        "lg_col": "col-lg-3",
+        "md_col": "col-md-3",
+        "sm_col": "col-sm-3"
+      }
+    },
+    "16579075797a6f97f7": {
+      "type": "hero-one",
+      "blocks": {
+        "1657907579c77886ce-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Title",
+            "title_size": "md"
+          }
+        },
+        "1657907579c77886ce-1": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Example message I'm baby mumblecore locavore tonx woke offal ntelligentsia. Pork belly skateboard mixtape mlkshk gastropub freegan Butcher lyft deep v succulents plaid."
+          }
+        },
+        "1657907579c77886ce-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1657907579c77886ce-0",
+        "1657907579c77886ce-1",
+        "1657907579c77886ce-2"
+      ],
+      "settings": {
+        "hero_height": "50vh",
+        "background": "#000000",
+        "opacity": 50,
+        "paragraph": "Example message I'm baby mumblecore locavore tonx woke offal ntelligentsia. Pork belly skateboard mixtape mlkshk gastropub freegan Butcher lyft deep v succulents plaid.",
+        "info_alignment": "center"
       }
     }
   },
   "order": [
-    "1656614730b29a396b",
-    "1656698091feed7417",
-    "1656702372c227e7ce",
-    "1657074970ddcaed79",
-    "1657244016744a01cb"
+    "165790741725d67871",
+    "1657907432879a8925",
+    "1657907497b59e4db4",
+    "1657907516f58643ee",
+    "16579075247a6d9755",
+    "16579075472429d698",
+    "16579075660720bfb1",
+    "16579075797a6f97f7"
   ]
 }
