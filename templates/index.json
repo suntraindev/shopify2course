@@ -1,22 +1,22 @@
 {
   "sections": {
-    "1657901216697eab60": {
+    "165790741725d67871": {
       "type": "hero-one",
       "blocks": {
-        "16579012165ed1dc36-0": {
+        "1657907417a668c4d5-0": {
           "type": "heading",
           "settings": {
             "title": "Title",
             "title_size": "md"
           }
         },
-        "16579012165ed1dc36-1": {
+        "1657907417a668c4d5-1": {
           "type": "paragraph",
           "settings": {
             "paragraph": "Example message I'm baby mumblecore locavore tonx woke offal ntelligentsia. Pork belly skateboard mixtape mlkshk gastropub freegan Butcher lyft deep v succulents plaid."
           }
         },
-        "16579012165ed1dc36-2": {
+        "1657907417a668c4d5-2": {
           "type": "button",
           "settings": {
             "button_label": "Button label",
@@ -25,9 +25,9 @@
         }
       },
       "block_order": [
-        "16579012165ed1dc36-0",
-        "16579012165ed1dc36-1",
-        "16579012165ed1dc36-2"
+        "1657907417a668c4d5-0",
+        "1657907417a668c4d5-1",
+        "1657907417a668c4d5-2"
       ],
       "settings": {
         "hero_height": "100vh",
@@ -37,22 +37,22 @@
         "info_alignment": "center"
       }
     },
-    "1657901311d14fe1ef": {
+    "1657907432879a8925": {
       "type": "collection-group",
       "blocks": {
-        "1657901311a6dfcdd9-0": {
+        "16579074321c22def6-0": {
           "type": "featured_collection",
           "settings": {
             "collection": ""
           }
         },
-        "1657901311a6dfcdd9-1": {
+        "16579074321c22def6-1": {
           "type": "featured_collection",
           "settings": {
             "collection": ""
           }
         },
-        "1657901311a6dfcdd9-2": {
+        "16579074321c22def6-2": {
           "type": "featured_collection",
           "settings": {
             "collection": ""
@@ -60,9 +60,9 @@
         }
       },
       "block_order": [
-        "1657901311a6dfcdd9-0",
-        "1657901311a6dfcdd9-1",
-        "1657901311a6dfcdd9-2"
+        "16579074321c22def6-0",
+        "16579074321c22def6-1",
+        "16579074321c22def6-2"
       ],
       "settings": {
         "container_shape": "square",
@@ -77,7 +77,7 @@
         "sm_col": "col-sm-2"
       }
     },
-    "1657901231ae5acb10": {
+    "1657907497b59e4db4": {
       "type": "hero-two",
       "settings": {
         "hero_height": "50vh",
@@ -91,7 +91,7 @@
         "button_link2": ""
       }
     },
-    "16579013674e3e2627": {
+    "1657907516f58643ee": {
       "type": "collection-products-1",
       "settings": {
         "collection": "",
@@ -109,7 +109,7 @@
         "sm_col": "col-sm-3"
       }
     },
-    "1657901292efd739c8": {
+    "16579075247a6d9755": {
       "type": "featured-collection",
       "settings": {
         "title": "Featured collection",
@@ -136,7 +136,7 @@
         "padding_bottom": 36
       }
     },
-    "16579014376da91741": {
+    "16579075472429d698": {
       "type": "hero-two",
       "settings": {
         "hero_height": "50vh",
@@ -150,7 +150,7 @@
         "button_link2": ""
       }
     },
-    "165790144567010d69": {
+    "16579075660720bfb1": {
       "type": "collection-products-1",
       "settings": {
         "collection": "",
@@ -168,23 +168,23 @@
         "sm_col": "col-sm-3"
       }
     },
-    "1657901465ba5d3279": {
+    "16579075797a6f97f7": {
       "type": "hero-one",
       "blocks": {
-        "1657901465ff74fdce-0": {
+        "1657907579c77886ce-0": {
           "type": "heading",
           "settings": {
             "title": "Title",
             "title_size": "md"
           }
         },
-        "1657901465ff74fdce-1": {
+        "1657907579c77886ce-1": {
           "type": "paragraph",
           "settings": {
             "paragraph": "Example message I'm baby mumblecore locavore tonx woke offal ntelligentsia. Pork belly skateboard mixtape mlkshk gastropub freegan Butcher lyft deep v succulents plaid."
           }
         },
-        "1657901465ff74fdce-2": {
+        "1657907579c77886ce-2": {
           "type": "button",
           "settings": {
             "button_label": "Button label",
@@ -193,9 +193,9 @@
         }
       },
       "block_order": [
-        "1657901465ff74fdce-0",
-        "1657901465ff74fdce-1",
-        "1657901465ff74fdce-2"
+        "1657907579c77886ce-0",
+        "1657907579c77886ce-1",
+        "1657907579c77886ce-2"
       ],
       "settings": {
         "hero_height": "50vh",
@@ -207,13 +207,13 @@
     }
   },
   "order": [
-    "1657901216697eab60",
-    "1657901311d14fe1ef",
-    "1657901231ae5acb10",
-    "16579013674e3e2627",
-    "1657901292efd739c8",
-    "16579014376da91741",
-    "165790144567010d69",
-    "1657901465ba5d3279"
+    "165790741725d67871",
+    "1657907432879a8925",
+    "1657907497b59e4db4",
+    "1657907516f58643ee",
+    "16579075247a6d9755",
+    "16579075472429d698",
+    "16579075660720bfb1",
+    "16579075797a6f97f7"
   ]
 }
