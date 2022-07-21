@@ -1,6 +1,7 @@
 {{ 'Collection1.css' | asset_url | stylesheet_tag }} 
 
-{% if section.settings.collection.all.products_count > 0 %}
+{% if section.settings.collection.all_products_count > 0 %}
+  
   <div class="collection collection1"> 
     <div class="container">
       <div class="row">
@@ -130,8 +131,7 @@
               {%- if product.images[0].width >= 535 -%}{{ product.images[0] | image_url: width: 535 }} 535w,{%- endif -%}   
               {%- if product.images[0].width >= 750 -%}{{ product.images[0] | image_url: width: 750 }} 750w,{%- endif -%}
               {%- if product.images[0].width >= 1070 -%}{{ product.images[0] | image_url: width: 2000 }} 2000w,{%- endif -%}
-              {%- if product.images[0].width >= 1500 -%}{{ product.images[0] | image_url: width: 2000 }} 2000w,{%- endif -%} 
-              {{ product.images[0] | image_url }} {{ product.images[0].width }}w"
+              {%- if product.images[0].width >= 1500 -%}{{ product.images[0] | image_url: width: 2000 }} 2000w,{%- endif -%}"
             src="{{ product.images[0] | image_url: width: 1500 }}"
             sizes="(min-width: 1100px) 2000px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
             alt="{{ product.images[0].alt | escape }}"
