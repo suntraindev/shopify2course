@@ -94,7 +94,7 @@
     "1657907516f58643ee": {
       "type": "collection-products-1",
       "settings": {
-        "collection": "",
+        "collection": "joy",
         "total_products": 16,
         "container_shape": "rectangle",
         "image_fit": "cover",
