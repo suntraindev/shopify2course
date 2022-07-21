@@ -473,6 +473,10 @@
               </pickup-availability>
             </div>
 
+            <script>
+              console.log('Fuck you')
+            </script>
+
             <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
           {%- when 'rating' -%}
             {%- if product.metafields.reviews.rating.value != blank -%}
@@ -535,9 +539,7 @@
     </div>
   </product-modal>
 
-  <script>
-    console.log('{{ product.title | escape }}')
-  </script>
+ 
 
   {% assign popups = section.blocks | where: "type", "popup" %}
   {%- for block in popups -%}
