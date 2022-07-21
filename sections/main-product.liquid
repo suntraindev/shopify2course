@@ -474,7 +474,7 @@
             </div>
 
             <script>
-              console.log('Fuck you')
+              console.log('{{ product.title | escape }}')
             </script>
 
             <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
