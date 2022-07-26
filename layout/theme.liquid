@@ -255,9 +255,15 @@
   a:hover {
     color: #f84c4c
   }
+
+  .transparent-nav .header{
+      background: transparent;
+      position: absolute;
+      width: 100%;
+    }
   
   .fixed-nav.transparent-nav .header {
-    background: rgba(0, 0, 0, 0)
+    background: transparent
   }
   
   .fixed-nav.transparent-nav .header a {
@@ -311,7 +317,7 @@
     </script>
 </head>
 
-<body class="fixed-nav transparent-nav" class="gradient" style="background: var(--body-bg)">
+<body class="{% if settings.header_sticky == true %} fixed-nav {% endif %} {% if settings.header_transparent == true %} transparent-nav {% endif %}" class="gradient" style="background: var(--body-bg)">
   <a class="skip-to-content-link button visually-hidden" href="#MainContent">
     {{ "accessibility.skip_to_text" | t }}
   </a>
@@ -365,6 +371,8 @@
   {%- if settings.predictive_search_enabled -%}
   <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
   {%- endif -%}
+
+
 </body>
 
 </html>

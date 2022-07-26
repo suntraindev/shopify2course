@@ -1,5 +1,42 @@
 {
   "sections": {
+    "16588721691643aa58": {
+      "type": "product-highlight",
+      "blocks": {
+        "16588721692270111f-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Title",
+            "title_size": "md"
+          }
+        },
+        "16588721692270111f-1": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Example message I'm baby mumblecore locavore tonx woke offal ntelligentsia. Pork belly skateboard mixtape mlkshk gastropub freegan Butcher lyft deep v succulents plaid."
+          }
+        },
+        "16588721692270111f-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16588721692270111f-0",
+        "16588721692270111f-1",
+        "16588721692270111f-2"
+      ],
+      "settings": {
+        "hero_height": "100vh",
+        "background": "#000000",
+        "opacity": 50,
+        "paragraph": "Example message I'm baby mumblecore locavore tonx woke offal ntelligentsia. Pork belly skateboard mixtape mlkshk gastropub freegan Butcher lyft deep v succulents plaid.",
+        "info_alignment": "right"
+      }
+    },
     "165790741725d67871": {
       "type": "hero-one",
       "blocks": {
@@ -207,6 +244,7 @@
     }
   },
   "order": [
+    "16588721691643aa58",
     "165790741725d67871",
     "1657907432879a8925",
     "1657907497b59e4db4",

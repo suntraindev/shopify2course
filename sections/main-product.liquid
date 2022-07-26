@@ -8,6 +8,13 @@
   {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
   {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
 
+  <script>
+    console.log('testing')
+    // console.log(product.title)
+    const productVariants = JSON.parse('{{ product.variants | json }}')
+    console.log(productVariants)   
+  </script>
+
   {%- style -%}
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
